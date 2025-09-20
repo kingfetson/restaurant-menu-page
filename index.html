@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🍴 Restaurant Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🍴 Festus' Restaurant</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkToggle">🌙</button>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1>Welcome to Our Restaurant</h1>
+    <p>Delicious meals made fresh for you</p>
+  </header>
+
+  <!-- Filter + Menu -->
+  <section>
+    <div class="filter-container">
+      <label for="category">Filter by Category:</label>
+      <select id="category">
+        <option value="all">All</option>
+      </select>
+    </div>
+
+    <div id="menu" class="menu-grid"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      At Festus' Restaurant, we believe in fresh ingredients, great flavors, and 
+      serving meals that make you feel at home. Our menu is inspired by 
+      cuisines from all around the world.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@festusrestaurant.com</p>
+    <p>Phone: +254-700-000-000</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Festus' Restaurant | Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
